@@ -1,0 +1,470 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/*==[IMGS]==*/
+.image {
+    padding: 15px;
+    border: 6px double #fff;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.foodImage {
+    height: 350px;
+    width: 270px;
+    margin-left: 100px;
+}
+
+.neonImage {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+}
+
+.neonGroup {
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.hangryFace {
+    width:40px;
+    margin-right: 20px;
+    border: 3px solid #ec5451;
+    border-radius: 50%;
+}
+
+.yelpStars {
+    margin-top: 5px;
+    width: 150px;
+}
+
+/*==[GENERAL TEXT]==*/
+h1 {
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    font-size: 55px;
+    font-family: 'Maitree', serif;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+  }
+
+p, li, a {
+    font-size: 27px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+  }
+
+.textCenter {
+    text-align: center;
+}
+
+.smallCaps {
+    font-variant: small-caps;
+}
+
+li {
+    list-style: none;
+}
+
+/*==[LINKS]==*/
+.link {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    margin: 10px;
+    outline: none;
+}
+
+.link:active, .link:visited, .full {
+    color: rgb(254, 156, 3);
+    font-size: 27px;
+}
+
+.link:hover, .link:focus {
+    font-size: 25px;
+    color: rgb(255, 229, 8);
+    border-bottom: 1px solid rgb(255, 229, 8);;
+}
+
+.landing-link {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 7px;
+    margin: 7px;
+    font-size: 30px;
+    outline:none;
+}
+
+.landing-link:active, .landing-link:visited, .empty {
+    color: rgb(236, 84, 81);
+}
+
+.landing-link:hover {
+    font-size: 29px;
+    color: rgb(255, 229, 8);
+    border-bottom: 1px solid rgb(236, 84, 81);
+}
+
+.landing-link:focus {
+    border-bottom: 1px solid rgb(236, 84, 81);
+}
+
+.hangry-link {
+    outline:none;
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(236, 84, 81);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.hangry-link:hover, .hangry-link:focus {
+    font-size: 23px;
+    color:  rgb(254, 156, 3);
+}
+
+/*==[LANDING]==*/
+.landing-container {
+    height:100vh;
+    width: 100vw;
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("./assets/landing-bg.png");
+    background-position: left center;
+}
+
+.landing-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.landing-text-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: 100px;
+}
+
+#landing-brand-text {
+    border-top: 2px solid #fff;
+    border-bottom: 2px dotted #fff;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+
+/*==[NAVBAR]==*/
+.nav-container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 15px;
+    background-color: #000;
+}
+
+.navbar-ul {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+/*==[RECIPE/HOME]==*/
+.recipeSearch-container {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10%;
+}
+
+.recipeSearchForm-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.15);
+    height: 360px;
+    width: 650px;
+    border-radius: 5px;
+}
+
+.recipeSearchFormText-title, .restSearchFormText-title {
+    font-size: 50px;
+    text-shadow: 1px 1px #000;
+}
+
+.recipeSearchFormStomach, .restSearchFormNowhere {
+    font-size: 25px;
+    margin: 5px;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+}
+
+.recipeCards-container {
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-bottom: 90px;
+}
+
+.recipeSearch-bar {
+    padding: 10px;
+    height: 45px;
+    width: 400px;
+}
+
+input {
+    font-size: 25px;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.7);
+}
+
+input:focus, .recipeSearch-btn, .restSearch-btn {
+    outline: none;
+}
+
+.recipeSearch-btn, .restSearch-btn {
+    padding: 5px 15px;
+    height: 45px;
+    font-size: 23px;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(0,0,0);
+    color: #fff;
+    border: 2px solid #fff;
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.7);
+}
+
+.recipeSearch-btn:hover, .recipeSearch-btn:focus,
+.restSearch-btn:hover,
+.restSearch-btn:focus {
+    border: 2px solid rgb(236, 84, 81);
+    color: rgb(236, 84, 81);
+}
+
+/*==[RESTAURANT/HANGRY]==*/
+.hangry-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("./assets/restaurantbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.restSearch-container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restSearchForm-container {
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.restSearch-bar {
+    padding: 7px;
+    height: 45px;
+    width: 590px;
+}
+
+.status {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurantCards-container {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-bottom: 90px;
+}
+
+
+
+/*==[INDIVIDUAL RESULTS FOR RECIPES AND RESTAURANTS]==*/
+.resultCard-container {
+    max-width: 200px;
+    border: 1px solid #fff;
+    margin: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.7);
+}
+
+.resultCard-top {
+    display:flex;
+    align-items: flex-start;
+}
+
+.resultCardImg {
+    width: 196px;
+    height: 200px;
+    padding:0;
+}
+
+.resultCardTitle {
+    font-size: 23px;
+    text-align: left;
+}
+
+.resultCardP {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.resultCardSmP {
+    font-size: 18px;
+}
+
+.resultCardHighlights {
+    font-size: 18px;
+    text-align: left;
+    max-height: 100px;
+}
+
+.resultCardLink, .resultCardLink:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.resultCardLink:hover, .resultCardLink:focus {
+    color: rgb(255, 229, 8);
+}
+
+.resultCard-text {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.resultCard-containerRest {
+    width: 260px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0 0 5px 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.7);
+}
+
+.resultCardImgRest {
+    width: 260px;
+    height: 250px;
+    object-fit: cover;
+    padding:0;
+    border-bottom: 1px solid #fff;
+}
+
+.sideBorders {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.extraYelpDeets {
+    margin: 5px;
+    padding-left: 10px;
+}
+
+/*==[ABOUT]==*/
+.about-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/aboutbg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+}
+
+.aboutTitle {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    color: rgb(255, 229, 8);
+    border-bottom: 1px double #fff;
+}
+
+.about-contentText {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.abtP {
+    text-indent: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.appetizer {
+    flex-grow:1;
+    margin-right: 30px;
+}
+
+.mains {
+    flex-grow:1;
+    margin-right: 30px;
+}
+/*==[404]==*/
+.notFound-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("./assets/fire.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notFoundText {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #000;
+}
+
+/*==[ATTRIBUTION]==*/
+#edamam-badge {
+    position: absolute;
+    right: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-right: 5px;
+
+}
+
+.yelp_trademark {
+    width: 70px;
+}
+
+/*==========MEDIA QUERIES==========*/
+/**WORK IN PROGRESS**/
