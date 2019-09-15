@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/foodHunt/static/css/main.0771f0fb.chunk.css",
+    "main.js": "/foodHunt/static/js/main.db549406.chunk.js",
+    "main.js.map": "/foodHunt/static/js/main.db549406.chunk.js.map",
+    "runtime~main.js": "/foodHunt/static/js/runtime~main.bdd31fb4.js",
+    "runtime~main.js.map": "/foodHunt/static/js/runtime~main.bdd31fb4.js.map",
+    "static/js/2.837ff56e.chunk.js": "/foodHunt/static/js/2.837ff56e.chunk.js",
+    "static/js/2.837ff56e.chunk.js.map": "/foodHunt/static/js/2.837ff56e.chunk.js.map",
+    "index.html": "/foodHunt/index.html",
+    "precache-manifest.326e82f4884bdaa28dc830c4fabbb957.js": "/foodHunt/precache-manifest.326e82f4884bdaa28dc830c4fabbb957.js",
+    "service-worker.js": "/foodHunt/service-worker.js",
+    "static/css/main.0771f0fb.chunk.css.map": "/foodHunt/static/css/main.0771f0fb.chunk.css.map",
+    "static/media/Yelp_trademark_RGB.png": "/foodHunt/static/media/Yelp_trademark_RGB.9ea57640.png",
+    "static/media/App.css": "/foodHunt/static/media/restaurantbg.95c09b2d.jpg",
+    "static/media/index.css": "/foodHunt/static/media/cooking.ceefdc7b.jpg",
+    "static/media/hangry.png": "/foodHunt/static/media/hangry.7b23134d.png",
+    "static/media/hangryplaceholder.jpg": "/foodHunt/static/media/hangryplaceholder.25c951af.jpg",
+    "static/media/homeplaceholder.jpg": "/foodHunt/static/media/homeplaceholder.d0ddb037.jpg",
+    "static/media/kitchenplaceholder.jpg": "/foodHunt/static/media/kitchenplaceholder.66828086.jpg",
+    "static/media/landingplaceholder.jpg": "/foodHunt/static/media/landingplaceholder.88d6aeb5.jpg",
+    "static/media/yelpimgplaceholder.jpg": "/foodHunt/static/media/yelpimgplaceholder.890a88df.jpg",
+    "static/media/yumplaceholder.jpg": "/foodHunt/static/media/yumplaceholder.506d0cef.jpg"
+  }
+}
