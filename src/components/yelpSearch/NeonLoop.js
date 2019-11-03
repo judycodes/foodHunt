@@ -19,7 +19,7 @@ export default class NeonLoop extends Component {
               };
 
             //every three seconds value of imageSrc changes with url of image randomly picked from my specified Unsplash collection, which randomizes img display in render
-            this.neonLoop = setInterval(() => this.setState({ imageSrc : `https://source.unsplash.com/collection/8321699/${getRandomNum()}` }), 3000);
+            this.neonLoop = setInterval(() => this.setState({ imageSrc : `https://source.unsplash.com/collections/8321699/${getRandomNum()}` }), 3000);
         } catch(err) {
                   console.log(`Error ( ${err} ) occurred during neon img retrieval`);
                   
