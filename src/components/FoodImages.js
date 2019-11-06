@@ -20,7 +20,7 @@ export default class FoodImages extends Component {
               };
 
               //every two seconds value of imageSrc changes with url of image randomly picked from my specified Unsplash collection, which randomizes img display in render
-            this.foodLoop = setInterval(() => this.setState({ imageSrc : `https://source.unsplash.com/collections/${this.state.imgCollection}/${getRandomNum()}` }), 2000);
+            this.foodLoop = setInterval(() => this.setState({ imageSrc : `https://source.unsplash.com/collection/${this.state.imgCollection}/${getRandomNum()}` }), 2000);
         } catch(err) {
                   console.log(`Error ( ${err} ) occurred during food img retrieval`);
         }
